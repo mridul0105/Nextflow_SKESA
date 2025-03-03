@@ -1,4 +1,4 @@
-# Nextflow pipeline for Assembly
+# Nextflow pipeline for Genome Assembly
 This simple nextflow workflow accepts 2 paired end files and performs assembly with SKESA and then parallel genotyping with MLST and Quality Ananlysis with QUAST.
 
 This script can be used as - ```nextflow run Workflow2.nf --reads <path/of/directory>/*.gz```
